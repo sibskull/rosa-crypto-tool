@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-09 10:35+0300\n"
+"PO-Revision-Date: 2016-08-09 10:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: rosa_crypto_tool_main.py:146
+msgid "Information about the certificate:\n"
+msgstr "Информация о сертификате:\n"
+
+#: rosa_crypto_tool_main.py:147
+msgid "- Issuer: "
+msgstr "- Издатель: "
+
+#: rosa_crypto_tool_main.py:148
+msgid "- Subject: "
+msgstr "- Субъект: "
+
+#: rosa_crypto_tool_main.py:149
+msgid "- Serial: "
+msgstr "- Серийный номер: "
+
+#: rosa_crypto_tool_main.py:150
+msgid "- Signature Algorithm: "
+msgstr "- Алгоритм подписи: "
+
+#: rosa_crypto_tool_main.py:151
+msgid "- PublicKey Algorithm: "
+msgstr "- Алгоритм открытого ключа: "
+
+#: rosa_crypto_tool_main.py:152
+msgid "- Valid from "
+msgstr "- Действителен с: "
+
+#: rosa_crypto_tool_main.py:152
+msgid " to "
+msgstr " до "
+
+#: rosa_crypto_tool_main.py:157
+msgid "Choose file"
+msgstr "Выбрать файл"
+
+#: rosa_crypto_tool_main.py:174
+msgid "Signature's verified"
+msgstr "Подпись проверена"
+
+#: rosa_crypto_tool_main.py:182
+msgid "Please select the file to verify sign"
+msgstr "Пожалуйста, выберите файл для проверки подписи"
+
+#: rosa_crypto_tool_main.py:190 rosa_crypto_tool_main.py:228
+msgid "This file is not a signature"
+msgstr "Этот файл не является файлом подписи"
+
+#: rosa_crypto_tool_main.py:212
+msgid "The file is separated"
+msgstr "Файл отделён от подписи"
+
+#: rosa_crypto_tool_main.py:220
+msgid "Please select the file sign to separated"
+msgstr "Пожалуйста, выберите файл для отделения его от подписи"
+
+#: rosa_crypto_tool_main.py:243
+msgid "Signed message is created"
+msgstr "Подписание файла выполнено"
+
+#: rosa_crypto_tool_main.py:250
+msgid "Please select the file to sign"
+msgstr "Пожалуйста, выберите файл для подписи"
+
+#: rosa_crypto_tool_main.py:257
+msgid ""
+"Certificate you want to sign the document is not installed.\n"
+"Please click on the button to install the certificate and try again"
+msgstr ""
+"Сертификат, которым вы хотите подписать файл, не установлен.\n"
+"Пожалуйста, кликните по кнопке \"Установить сертификат\" и повторите попытку."
+
+#: rosa_crypto_tool_main.py:269
+msgid "The certificate was installed successfully"
+msgstr "Сертификат был успешно установлен"
+
+#: rosa_crypto_tool_main.py:276
+msgid ""
+"The installation failed.\n"
+"Please check for the token in the computer and try again"
+msgstr ""
+"Установка не удалась.\n"
+"Пожалуйста, проверьте наличие токена в компьютере и повторите попытку"
+
+#: rosa_crypto_tool_main.py:317
+msgid " - no longer valid\n"
+msgstr " - более не действителен\n"
+
+#: rosa_crypto_tool_main.py:319
+#, python-format
+msgid " - using outdated signature scheme %s valid until 31 December 2018\n"
+msgstr ""
+" - использует устаревшую схему подписи %s действительную до 31 декабря "
+"2018г.\n"
+
+#: rosa_crypto_tool_main.py:323
+msgid ""
+"\n"
+"\n"
+"WARNING: This certificate:\n"
+msgstr ""
+"\n"
+"\n"
+"ПРЕДУПРЕЖДЕНИЕ: Данный сертификат\n"
+
+#: rosa_crypto_tool_main.py:333
+msgid " - Token is not installed in the computer\n"
+msgstr " - Токен не установлен в компьютер\n"
+
+#: rosa_crypto_tool_main.py:335
+msgid " - CryptoPro is not installed in the computer\n"
+msgstr " - КриптоПро не установлен на компьютер\n"
+
+#: rosa_crypto_tool_main.py:337
+msgid " - PC/SC Smart Card Daemon is not running\n"
+msgstr " - PC/SC Smart Card Daemon не запущен\n"
+
+#: rosa_crypto_tool_main.py:339 rosa_crypto_tool_main.py:344
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: rosa_crypto_tool_main.py:339
+msgid ""
+"Discovered the following:\n"
+"\n"
+msgstr ""
+"Обнаружено следующее:\n"
+"\n"
+
+#: rosa_crypto_tool_main.py:341
+msgid "Information"
+msgstr "Информация"
+
+#: rosa_crypto_tool_main.py:341
+msgid "All the necessary components installed and working"
+msgstr "Все необходимые компоненты установлены и работают"
+
+#: rosa_crypto_tool_main.py:344
+msgid ""
+"This certificate:\n"
+"\n"
+msgstr ""
+"Данный сертификат:\n"
+"\n"
+
+#: rosa_crypto_tool_ui.py:66
+msgid "&File"
+msgstr "&Файл"
+
+#: rosa_crypto_tool_ui.py:67
+msgid "&Tools"
+msgstr "&Инструменты"
+
+#: rosa_crypto_tool_ui.py:68 rosa_crypto_tool_ui.py:86
+msgid "&Help"
+msgstr "&Справка"
+
+#: rosa_crypto_tool_ui.py:71
+msgid "&Choose File"
+msgstr "Выбрать файл"
+
+#: rosa_crypto_tool_ui.py:73
+msgid "Choose file for sign or verify signature"
+msgstr "Выбрать файл для подписания или проверки подписи"
+
+#: rosa_crypto_tool_ui.py:74
+msgid "&Exit"
+msgstr "&Выход"
+
+#: rosa_crypto_tool_ui.py:77
+msgid "&Sign file"
+msgstr "&Подписать файл"
+
+#: rosa_crypto_tool_ui.py:78
+msgid "Sign the selected file"
+msgstr "Подписать выбранный файл"
+
+#: rosa_crypto_tool_ui.py:79
+msgid "&Check signature"
+msgstr "П&роверить подпись"
+
+#: rosa_crypto_tool_ui.py:80
+msgid "Verify a signed file"
+msgstr "Проверить подпись выбранного файла"
+
+#: rosa_crypto_tool_ui.py:81
+msgid "Split file"
+msgstr "Отделить файл"
+
+#: rosa_crypto_tool_ui.py:82
+msgid "Separates the file from your signature"
+msgstr "Отделение файла от подписи"
+
+#: rosa_crypto_tool_ui.py:83
+msgid "Check component program"
+msgstr "Проверка компонентов программы"
+
+#: rosa_crypto_tool_ui.py:84
+msgid "Install certificate"
+msgstr "Установить сертификат"
+
+#: rosa_crypto_tool_ui.py:88
+msgid "&About ROSA Crypto Tool"
+msgstr "&О программе ROSA Crypto Tool"
+
+#: rosa_crypto_tool_ui.py:119
+msgid "ROSA Crypto Tool"
+msgstr ""
+
+#: rosa_crypto_tool_ui.py:124 rosa_crypto_tool_ui.py:176
+msgid "Show"
+msgstr "Показать"
+
+#: rosa_crypto_tool_ui.py:128
+msgid "Hide"
+msgstr "Скрыть"
+
+#: rosa_crypto_tool_ui.py:152
+msgid "File:"
+msgstr "Файл:"
+
+#: rosa_crypto_tool_ui.py:153
+msgid "Status operation:"
+msgstr "Статус операции:"
+
+#: rosa_crypto_tool_ui.py:154
+msgid "Details:"
+msgstr "Подробности:"
+
+#: rosa_crypto_tool_ui.py:168
+msgid "Choose"
+msgstr "Выбрать"
+
+#: rosa_crypto_tool_ui.py:177
+msgid "Show or hide more information"
+msgstr "Показать или скрыть подробную информацию"
+
+#: rosa_crypto_tool_ui.py:225
+msgid ""
+"ROSA Crypto Tool - program for working with electronic digital signature\n"
+"\n"
+"Authors: Michl Voznesensky\n"
+"Version: alpha\n"
+"License: BSD\n"
+"Copyright (c) 2016, LLC \"NTC IT ROSA\""
+msgstr ""
+"ROSA Crypto Tool - программа для работы с электронной цифровой подписью\n"
+"\n"
+"Автор: Михаил Вознесенский\n"
+"Версия: альфа\n"
+"Лицензия: BSD\n"
+"Copyright (c) 2016, ООО «НТЦ ИТ РОСА»"
+
+#: rosa_crypto_tool_ui.py:240
+msgid "About ROSA Crypto Tool"
+msgstr "О ROSA Crypto Tool"
+
+#~ msgid " - using outdated signature scheme "
+#~ msgstr " - использует устаревшую схему подписи "
